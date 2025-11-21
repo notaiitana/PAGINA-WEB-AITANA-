@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../IMAGENES/neru.jpeg">
+    <link rel="stylesheet" href="../CSS/segundo.css">
+</head>
+<body>
+
+    <h1>Para poder contactar conmigo, rellena este formulario:</h1>
+
+    <form Contacto method="post">
+    
+        <fieldset>
+
+        <label for="nombre"><b>Nombre:</b></label>
+        <input type="text" name="nombre" required>
+
+
+        <label for="apellidos"><b>Apellidos:</b></label>
+        <input type="text" name="apellidos" required>
+
+
+        <label for="email"><b>Indica tu email:</b></label>
+        <input type="text" name="Email" required>
+
+        <br>
+
+
+        <p><label for="fecha"><b>Indica un dia disponible en tu agenda:</b></label></p>
+        <input type="date" name="fecha" required>
+
+        <br>
+        <br>
+
+        <label for="urgencia"><b>¿Mi respuesta es urgente?</b></label>
+        <select name="urgencia">
+            <option></option>
+            <option>Si, por favor</option>
+            <option>No, gracias</option>
+        </select>
+
+
+        <p><b>¿Te gustaría destacar algo?</b></p>
+        <textarea rows="4" cols="50" placeholder="Escribe aqui tu respuesta..."></textarea>
+
+        <br>
+        <br>
+
+        <input type="reset" value="Borrar Formulario" name="boton1">
+        <input type="submit" value="Enviar Formulario" name="boton2">
+        <input type="file" value="Archivo" name="boton3">
+
+        </fieldset>
+
+
+    </form>
+
+    <h2 align="center">¡Muchas gracias por su colaboracion!</h2>
+    
+</body>
+</html>

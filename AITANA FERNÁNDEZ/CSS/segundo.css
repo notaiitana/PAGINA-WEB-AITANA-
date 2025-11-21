@@ -1,0 +1,35 @@
+@font-face {
+    font-family: titulos;
+    src: url(../FUENTES/Beige\ Come.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(../FUENTES/handwash_2/Handwash.otf);
+}
+
+
+body {
+    background-color: rgb(235, 230, 225);
+    font-size: 20px;
+}
+
+
+label {
+    display: block;
+    margin: 5px ;
+}
+
+input:focus {
+    border: 2px;
+    background-color: rgb(48, 185, 219);
+}
+
+h1 {
+    font-family: titulos;
+}
+
+h2 {
+    font-family: texto;
+    font-size: 60px;
+}
